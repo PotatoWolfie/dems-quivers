@@ -1,0 +1,21 @@
+{
+  "values": [
+    "dems-quivers:quiver",
+    "dems-quivers:white_quiver",
+    "dems-quivers:orange_quiver",
+    "dems-quivers:magenta_quiver",
+    "dems-quivers:light_blue_quiver",
+    "dems-quivers:yellow_quiver",
+    "dems-quivers:lime_quiver",
+    "dems-quivers:pink_quiver",
+    "dems-quivers:gray_quiver",
+    "dems-quivers:light_gray_quiver",
+    "dems-quivers:cyan_quiver",
+    "dems-quivers:purple_quiver",
+    "dems-quivers:blue_quiver",
+    "dems-quivers:brown_quiver",
+    "dems-quivers:green_quiver",
+    "dems-quivers:red_quiver",
+    "dems-quivers:black_quiver"
+  ]
+}

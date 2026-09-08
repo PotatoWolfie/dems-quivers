@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "dems-quivers:item/white_quiver"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "dems-quivers:item/white_quiver_filled"
+    },
+    "property": "dems-quivers:quiver/has_arrows"
+  }
+}

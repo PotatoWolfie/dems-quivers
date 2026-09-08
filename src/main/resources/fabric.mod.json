@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "dems-quivers",
+	"version": "${version}",
+	"name": "Dem's Quivers",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Demidiant",
+		"PotatoWolfie"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "Limited All Rights Reserved",
+	"icon": "assets/dems-quivers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"potatowolfie.dems_quivers.DemSQuivers"
+		],
+		"client": [
+			"potatowolfie.dems_quivers.DemSQuiversClient"
+		],
+		"fabric-datagen": [
+			"potatowolfie.dems_quivers.DemSQuiversDataGenerator"
+		]
+	},
+	"mixins": [
+		"dems-quivers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

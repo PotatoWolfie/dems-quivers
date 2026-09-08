@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dems-quivers:item/magenta_quiver_filled"
+  }
+}

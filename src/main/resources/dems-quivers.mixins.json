@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "potatowolfie.dems_quivers.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AbstractContainerScreenMixin",
+    "ClientTooltipComponentMixin",
+    "ConditionalItemModelPropertiesMixin",
+    "ExampleMixin",
+    "ItemStackMixin",
+    "PlayerMixin",
+    "ProjectileWeaponItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+	}
+}
