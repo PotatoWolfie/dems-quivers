@@ -3,12 +3,14 @@ ec3a3969559d1d15db85b85120941709fac38829 assets/dems-quivers/items/black_quiver.
 07c16db15356de7794dd56e67039069cf83c6874 assets/dems-quivers/items/blue_quiver.json
 57fde1c2625ae9d59808196be513cf5c1a5b72be assets/dems-quivers/items/brown_quiver.json
 315e2a01413c5d98337fc7e2a381ba6cb47ecbf0 assets/dems-quivers/items/cyan_quiver.json
+c9a9514a3856413821434a8e0cd0b573623b4c19 assets/dems-quivers/items/frozen_arrow.json
 6ff68b48182b04747ec65ea569c65bfc439b9f79 assets/dems-quivers/items/gray_quiver.json
 b0bb908c1be3de18595d16ea09d64b1e145db278 assets/dems-quivers/items/green_quiver.json
 8a9d9986bb9ad922770cc14f2e40d6b7cde60dee assets/dems-quivers/items/light_blue_quiver.json
 d327eb7b80e6ad9ebe69fa6222739aea4d10fc5b assets/dems-quivers/items/light_gray_quiver.json
 306773c0077ba85108fe1a55ea6d17e376e55bc9 assets/dems-quivers/items/lime_quiver.json
 05d325c9a47e7012ea98b6a971319ee820957f72 assets/dems-quivers/items/magenta_quiver.json
+d371bf990e7c79de1805fabf452d4be4123df57f assets/dems-quivers/items/ominous_arrow.json
 9a0478273a61d61793bd90c643abc223f29a3755 assets/dems-quivers/items/orange_quiver.json
 b8d15ba49147dbba5b6b622c99987f7f8de1159a assets/dems-quivers/items/pink_quiver.json
 734424a92fe90c745da9c72583919cd1518de58c assets/dems-quivers/items/purple_quiver.json
@@ -24,6 +26,7 @@ e32a69495322f8e5f8bfa02b8e1e960fa6228124 assets/dems-quivers/models/item/blue_qu
 e3d41d5f0f11f3a3278b7b1146d6d1627d9d1e8a assets/dems-quivers/models/item/brown_quiver_filled.json
 e6daa98085c2136a9fbf8c91bf6dcaf37bd70b02 assets/dems-quivers/models/item/cyan_quiver.json
 58f112f3cda7f1e3bd893bb198681e300b551ec6 assets/dems-quivers/models/item/cyan_quiver_filled.json
+df8d1970ec4046a35faa31b7ebc6376c51e3ab04 assets/dems-quivers/models/item/frozen_arrow.json
 777af260fbe82c944e837415e9d73fc491ae0f65 assets/dems-quivers/models/item/gray_quiver.json
 dbc683b5f9a358800cc6e0c00d56e02ac2de9cc1 assets/dems-quivers/models/item/gray_quiver_filled.json
 8df7c6ea27caf3025f101b54ba6a51cda1776bef assets/dems-quivers/models/item/green_quiver.json
@@ -36,6 +39,7 @@ e1b54b3f20fe25ea5ad8fdfe5b090ad4a25b531d assets/dems-quivers/models/item/lime_qu
 184ec1789858e3db7b1c56d35dd29c30e95201dc assets/dems-quivers/models/item/lime_quiver_filled.json
 cf20e18a28593564fe6aef20b663fcb1ca6baa59 assets/dems-quivers/models/item/magenta_quiver.json
 c22628bb96092340cb0c8d068296194070733abf assets/dems-quivers/models/item/magenta_quiver_filled.json
+c9202564771a7d590f8a60fd8f6b3cebd5688002 assets/dems-quivers/models/item/ominous_arrow.json
 a6c59afed1ee6b8ea1aae07214d0d093f54885e0 assets/dems-quivers/models/item/orange_quiver.json
 549f18042534f6a0e526ae8740b8e7089927d5ed assets/dems-quivers/models/item/orange_quiver_filled.json
 be8470cffafda447fabb102fe5c9b97a4277cc15 assets/dems-quivers/models/item/pink_quiver.json

@@ -15,5 +15,13 @@
   "item.dems-quivers.blue_quiver": "Blue Quiver",
   "item.dems-quivers.purple_quiver": "Purple Quiver",
   "item.dems-quivers.magenta_quiver": "Magenta Quiver",
-  "item.dems-quivers.pink_quiver": "Pink Quiver"
+  "item.dems-quivers.pink_quiver": "Pink Quiver",
+
+  "item.dems-quivers.frozen_arrow": "Frozen Arrow",
+  "entity.dems-quivers.frozen_arrow": "Frozen Arrow",
+  "effect.dems-quivers.freezing": "Freezing",
+
+  "item.dems-quivers.ominous_arrow": "Ominous Arrow",
+  "entity.dems-quivers.ominous_arrow": "Ominous Arrow",
+  "effect.dems-quivers.raging": "Raging"
 }

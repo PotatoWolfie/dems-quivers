@@ -7,7 +7,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import potatowolfie.dems_quivers.DemSQuivers;
-import potatowolfie.dems_quivers.item.QuiverContents;
+import potatowolfie.dems_quivers.item.custom.quiver.QuiverContents;
 
 public class DemSQuiversComponents {
 

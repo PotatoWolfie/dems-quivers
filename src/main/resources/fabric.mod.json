@@ -3,14 +3,15 @@
 	"id": "dems-quivers",
 	"version": "${version}",
 	"name": "Dem's Quivers",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A modernized rendition of the quiver while adding two new arrow types.",
 	"authors": [
 		"Demidiant",
 		"PotatoWolfie"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://potatowolfie.github.io/dems-quivers/",
+		"sources": "https://github.com/PotatoWolfie/dems-quivers",
+		"issues": "https://github.com/PotatoWolfie/dems-quivers/issues"
 	},
 	"license": "Limited All Rights Reserved",
 	"icon": "assets/dems-quivers/icon.png",

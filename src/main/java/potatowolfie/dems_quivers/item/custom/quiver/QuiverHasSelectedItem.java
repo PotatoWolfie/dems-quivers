@@ -1,4 +1,4 @@
-package potatowolfie.dems_quivers.item;
+package potatowolfie.dems_quivers.item.custom.quiver;
 
 import com.mojang.serialization.MapCodec;
 import net.fabricmc.api.EnvType;

@@ -1,4 +1,4 @@
-package potatowolfie.dems_quivers.item;
+package potatowolfie.dems_quivers.item.custom.quiver;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -11,6 +11,7 @@ import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 import org.joml.Vector2i;
 import potatowolfie.dems_quivers.client.DemSQuiversComponents;
+import potatowolfie.dems_quivers.item.DemSQuiversTags;
 import potatowolfie.dems_quivers.network.ServerboundSelectQuiverItemPacket;
 
 @Environment(EnvType.CLIENT)

@@ -10,7 +10,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.util.Mth;
 import net.minecraft.world.item.ItemStack;
-import potatowolfie.dems_quivers.item.QuiverContents;
+import potatowolfie.dems_quivers.item.custom.quiver.QuiverContents;
 
 import java.util.List;
 import java.util.Objects;

@@ -6,7 +6,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
-import potatowolfie.dems_quivers.item.QuiverItem;
+import potatowolfie.dems_quivers.item.custom.quiver.QuiverItem;
 
 public class DemSQuiversNetworking {
 

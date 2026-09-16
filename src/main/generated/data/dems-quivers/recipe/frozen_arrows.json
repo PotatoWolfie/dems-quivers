@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "minecraft:arrow",
+    "I": "minecraft:ice"
+  },
+  "pattern": [
+    " I ",
+    "IAI",
+    " I "
+  ],
+  "result": {
+    "count": 4,
+    "id": "dems-quivers:frozen_arrow"
+  }
+}

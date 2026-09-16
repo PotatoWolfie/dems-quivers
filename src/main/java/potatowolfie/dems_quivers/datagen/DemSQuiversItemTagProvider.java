@@ -4,13 +4,14 @@ import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.tags.ItemTags;
 import potatowolfie.dems_quivers.item.DemSQuiversItems;
 import potatowolfie.dems_quivers.item.DemSQuiversTags;
 
 import java.util.concurrent.CompletableFuture;
 
-public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
-    public ModItemTagProvider(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> completableFuture) {
+public class DemSQuiversItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
+    public DemSQuiversItemTagProvider(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> completableFuture) {
         super(output, completableFuture);
     }
 
@@ -34,5 +35,9 @@ public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
                 .add(BuiltInRegistries.ITEM.wrapAsHolder(DemSQuiversItems.DYED_QUIVER.green()).unwrapKey().orElseThrow())
                 .add(BuiltInRegistries.ITEM.wrapAsHolder(DemSQuiversItems.DYED_QUIVER.red()).unwrapKey().orElseThrow())
                 .add(BuiltInRegistries.ITEM.wrapAsHolder(DemSQuiversItems.DYED_QUIVER.black()).unwrapKey().orElseThrow());
+
+        builder(ItemTags.ARROWS)
+                .add(BuiltInRegistries.ITEM.wrapAsHolder(DemSQuiversItems.FROZEN_ARROW).unwrapKey().orElseThrow())
+                .add(BuiltInRegistries.ITEM.wrapAsHolder(DemSQuiversItems.OMINOUS_ARROW).unwrapKey().orElseThrow());
     }
 }

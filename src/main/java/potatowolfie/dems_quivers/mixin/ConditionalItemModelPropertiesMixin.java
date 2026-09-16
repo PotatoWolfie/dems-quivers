@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import potatowolfie.dems_quivers.DemSQuivers;
-import potatowolfie.dems_quivers.item.QuiverHasArrows;
+import potatowolfie.dems_quivers.item.custom.quiver.QuiverHasArrows;
 
 @Mixin(ConditionalItemModelProperties.class)
 public class ConditionalItemModelPropertiesMixin {

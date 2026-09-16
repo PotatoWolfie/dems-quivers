@@ -1,4 +1,4 @@
-package potatowolfie.dems_quivers.item;
+package potatowolfie.dems_quivers.item.custom.quiver;
 
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.sounds.SoundEvents;

@@ -11,10 +11,10 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.ColorCollection;
 import potatowolfie.dems_quivers.item.DemSQuiversItems;
-import potatowolfie.dems_quivers.item.QuiverHasArrows;
+import potatowolfie.dems_quivers.item.custom.quiver.QuiverHasArrows;
 
-public class ModModelProvider extends FabricModelProvider {
-    public ModModelProvider(FabricPackOutput output) {
+public class DemSQuiversModelProvider extends FabricModelProvider {
+    public DemSQuiversModelProvider(FabricPackOutput output) {
         super(output);
     }
 
@@ -25,6 +25,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
+        itemModelGenerators.generateFlatItem(DemSQuiversItems.FROZEN_ARROW, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(DemSQuiversItems.OMINOUS_ARROW, ModelTemplates.FLAT_ITEM);
+
         generateQuiverModels(itemModelGenerators, DemSQuiversItems.QUIVER);
 
         ColorCollection.zipApply(

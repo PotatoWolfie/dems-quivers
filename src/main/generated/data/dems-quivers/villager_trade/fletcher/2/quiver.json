@@ -1,0 +1,11 @@
+{
+  "gives": {
+    "id": "dems-quivers:quiver"
+  },
+  "reputation_discount": 0.05,
+  "wants": {
+    "count": 11.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 8.0
+}

@@ -6,6 +6,7 @@ import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import potatowolfie.dems_quivers.effect.DemSQuiversEffects;
 import potatowolfie.dems_quivers.item.DemSQuiversItems;
 import potatowolfie.dems_quivers.network.DemSQuiversNetworking;
 
@@ -18,6 +19,7 @@ public class DemSQuivers implements ModInitializer {
 	public void onInitialize() {
 		DemSQuiversItems.registerModItems();
 		DemSQuiversNetworking.registerCommon();
+		DemSQuiversEffects.registerEffects();
 
 		LOGGER.info("Hello Fabric world!");
 	}

@@ -1,4 +1,4 @@
-package potatowolfie.dems_quivers.item;
+package potatowolfie.dems_quivers.item.custom.quiver;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
