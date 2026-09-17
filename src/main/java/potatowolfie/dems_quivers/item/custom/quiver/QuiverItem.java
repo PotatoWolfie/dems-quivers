@@ -102,24 +102,7 @@ public class QuiverItem extends Item {
     }
 
     public InteractionResult use(Level level, Player player, InteractionHand hand) {
-        ItemStack self = player.getItemInHand(hand);
-        QuiverContents initialContents = self.get(DemSQuiversComponents.QUIVER_CONTENTS);
-        if (initialContents == null || initialContents.isEmpty()) {
-            return InteractionResult.PASS;
-        }
-
-        QuiverContents.Mutable contents = new QuiverContents.Mutable(initialContents);
-        ItemStack removed = contents.removeStack();
-        if (removed.isEmpty()) {
-            return InteractionResult.PASS;
-        }
-
-        playRemoveOneSound(player);
-        self.set(DemSQuiversComponents.QUIVER_CONTENTS, contents.toImmutable());
-        if (!player.getInventory().add(removed)) {
-            player.drop(removed, false);
-        }
-        return InteractionResult.SUCCESS;
+        return InteractionResult.PASS;
     }
 
     public boolean isBarVisible(ItemStack stack) {
