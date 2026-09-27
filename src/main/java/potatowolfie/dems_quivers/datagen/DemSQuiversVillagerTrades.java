@@ -11,9 +11,6 @@ import net.minecraft.world.item.trading.TradeCost;
 import net.minecraft.world.item.trading.VillagerTrade;
 import potatowolfie.dems_quivers.item.DemSQuiversItems;
 
-import java.util.List;
-import java.util.Optional;
-
 public class DemSQuiversVillagerTrades {
     public static final ResourceKey<VillagerTrade> FLETCHER_2_EMERALD_QUIVER = createKey("fletcher/2/quiver");
     public static final ResourceKey<VillagerTrade> FLETCHER_5_EMERALD_FROZEN_ARROW = createKey("fletcher/5/frozen_arrow");
@@ -21,28 +18,27 @@ public class DemSQuiversVillagerTrades {
 
     public static void bootstrap(BootstrapContext<VillagerTrade> context) {
 
-        context.register(FLETCHER_2_EMERALD_QUIVER, new VillagerTrade(
+        context.register(FLETCHER_2_EMERALD_QUIVER, VillagerTrade.builder(
                 new TradeCost(Items.EMERALD, 11),
                 new ItemStackTemplate(DemSQuiversItems.QUIVER),
-                4, 8, 0.05f,
-                Optional.empty(), List.of()));
+                4, 8, 0.05f
+        ).build());
 
-        context.register(FLETCHER_5_EMERALD_FROZEN_ARROW, new VillagerTrade(
+        context.register(FLETCHER_5_EMERALD_FROZEN_ARROW, VillagerTrade.builder(
                 new TradeCost(Items.EMERALD, 5),
-                Optional.of(new TradeCost(Items.ARROW, 5)),
+                new TradeCost(Items.ARROW, 5),
                 new ItemStackTemplate(DemSQuiversItems.FROZEN_ARROW, 5),
-                12, 30, 0.05f,
-                Optional.empty(), List.of()));
+                12, 30, 0.05f
+        ).build());
 
-        context.register(FLETCHER_5_EMERALD_OMINOUS_ARROW, new VillagerTrade(
+        context.register(FLETCHER_5_EMERALD_OMINOUS_ARROW, VillagerTrade.builder(
                 new TradeCost(Items.EMERALD, 3),
-                Optional.of(new TradeCost(Items.ARROW, 5)),
+                new TradeCost(Items.ARROW, 5),
                 new ItemStackTemplate(DemSQuiversItems.OMINOUS_ARROW, 5),
-                12, 30, 0.05f,
-                Optional.empty(), List.of()));
+                12, 30, 0.05f
+        ).build());
 
     }
-
 
     private static ResourceKey<VillagerTrade> createKey(String name) {
         return ResourceKey.create(Registries.VILLAGER_TRADE, Identifier.fromNamespaceAndPath(DemSQuivers.MOD_ID, name));

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dems-quivers:frozen_arrows"
+        "recipes": "dems-quivers:frozen_arrows"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

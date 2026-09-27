@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dems-quivers:yellow_quiver"
+        "recipes": "dems-quivers:yellow_quiver"
       },
       "trigger": "minecraft:recipe_unlocked"
     },

@@ -144,7 +144,7 @@ public class ClientQuiverTooltip implements ClientTooltipComponent {
             int center = x + w / 2 - 12;
             ClientTooltipComponent nameTooltip = ClientTooltipComponent.create(name.getVisualOrderText());
             graphics.tooltip(font, List.of(nameTooltip), center - textWidth / 2, y - 15,
-                    DefaultTooltipPositioner.INSTANCE, selectedItem.get(DataComponents.TOOLTIP_STYLE));
+                    DefaultTooltipPositioner.INSTANCE, selectedItem.get(DataComponents.TOOLTIP_STYLE), false);
         }
     }
 

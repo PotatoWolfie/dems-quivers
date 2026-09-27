@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "dems-quivers:black_quiver"
+        "recipes": "dems-quivers:black_quiver"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
