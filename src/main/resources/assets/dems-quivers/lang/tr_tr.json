@@ -1,0 +1,27 @@
+{
+  "item.dems-quivers.quiver": "Ok Çantası",
+  "item.dems-quivers.white_quiver": "Beyaz Ok Çantası",
+  "item.dems-quivers.light_gray_quiver": "Açık Gri Ok Çantası",
+  "item.dems-quivers.gray_quiver": "Gri Ok Çantası",
+  "item.dems-quivers.black_quiver": "Siyah Ok Çantası",
+  "item.dems-quivers.brown_quiver": "Kahverengi Ok Çanta",
+  "item.dems-quivers.red_quiver": "Kırmızı Ok Çantası",
+  "item.dems-quivers.orange_quiver": "Turuncu Ok Çantası",
+  "item.dems-quivers.yellow_quiver": "Sarı Ok Çantası",
+  "item.dems-quivers.lime_quiver": "Fıstık Yeşili Ok Çantası",
+  "item.dems-quivers.green_quiver": "Yeşil Ok Çantası",
+  "item.dems-quivers.cyan_quiver": "Camgöbeği Ok Çantası",
+  "item.dems-quivers.light_blue_quiver": "Açık Mavi Ok Çantası",
+  "item.dems-quivers.blue_quiver": "Açık Mavi Ok Çantası",
+  "item.dems-quivers.purple_quiver": "Mor Ok Çantası",
+  "item.dems-quivers.magenta_quiver": "Macenta Ok Çantası",
+  "item.dems-quivers.pink_quiver": "Pembe Ok Çantası",
+
+  "item.dems-quivers.frozen_arrow": "Donmuş Ok",
+  "entity.dems-quivers.frozen_arrow": "Donmuş Ok",
+  "effect.dems-quivers.freezing": "Donmak",
+
+  "item.dems-quivers.ominous_arrow": "Uğursuz Ok",
+  "entity.dems-quivers.ominous_arrow": "Uğursuz Ok",
+  "effect.dems-quivers.raging": "Şiddetli"
+}
